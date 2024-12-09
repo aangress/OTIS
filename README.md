@@ -28,9 +28,11 @@ cd OTIS
 ```
 
 Activate the virtual environment *OTISenv*:
+*Windows*
 ```cmd
 OTISenv\Scripts\activate
 ```
+*macOS and Linux*
 ```bash
 source OTISenv/bin/activate
 ```
@@ -42,7 +44,7 @@ After activating the virtual environment *OTISenv*, run OTIS using
 ```
 python OTIS.py
 ```
-OTIS will then ask a series of questions about which functionalities you want to use. Answer the questions by typing your responses into the terminal and pressing enter.
+OTIS will then ask a series of questions about which functionalities you want to use. Answer the questions by typing your responses into the terminal and pressing enter. Try converting dog.jpg, reddiag.jpg, and jazz.wav which are included as sample files.
 
 ## Notes and Considerations
 * Putting any image/audio files you want to transform in the same directory as OTIS will make it much easier to interface with OTIS.
