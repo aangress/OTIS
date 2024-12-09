@@ -28,10 +28,12 @@ cd OTIS
 ```
 
 Activate the virtual environment *OTISenv*:
+
 *Windows*
 ```cmd
 OTISenv\Scripts\activate
 ```
+
 *macOS and Linux*
 ```bash
 source OTISenv/bin/activate
