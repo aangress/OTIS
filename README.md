@@ -28,10 +28,10 @@ cd OTIS
 ```
 
 Activate the virtual environment *OTISenv*:
-```Windows
+```cmd
 OTISenv\Scripts\activate
 ```
-```Linux/macOS
+```bash
 source OTISenv/bin/activate
 ```
 This environment comes preloaded with all the Python packages you need to run OTIS. OTIS is now ready to go!
