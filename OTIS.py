@@ -56,7 +56,7 @@ def image_to_audio(image_path, audio_path, fs, crossfadeflag, duration, resize_f
     cols = len(image_data[0])
 
     # Resize image
-    image = image.resize((int(resize_factor * rows), int(resize_factor * cols)))
+    image = image.resize((int(resize_factor * cols), int(resize_factor * rows)))
     image_data = np.array(image)
     rows = len(image_data)
     cols = len(image_data[0])
