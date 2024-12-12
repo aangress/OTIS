@@ -55,6 +55,7 @@ OTIS will then ask a series of questions about which functionalities you want to
 * OTIS supports most typical image formats.
 * OTIS **ONLY** supports mono .wav audio files.
 * You may need to download additional software to view the .mp4 videos that OTIS produces. VLC is a popular free media player that does job. It can be downloaded [here](https://www.videolan.org/vlc/).
+* *DO NOT* place any files in the tempimagefolder directory. They will get deleted during OTIS video creation.
 
 # Features
 * Crossfading: When converting image to audio, blend together audio segments to reduce tapping noises from discontinuities between segments. OTIS allows you to choose a crossfading duration from 0 to 100%. 100% duration means that no audio samples will maintain their original value, but all audio segments will be very-well blended together.
